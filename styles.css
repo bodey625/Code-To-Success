@@ -1,0 +1,116 @@
+
+body {
+    background: url('/home/cts/Desktop/HTML CSS Harmony/Images/Destiny.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   background-size: cover;
+    color: black;
+}
+
+#main { 
+    padding: 5px;
+    margin: 40px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-left: 5px solid orange;
+    border-top: 5px solid orange;
+    width: 70%;
+    align-content:left;
+}
+         
+#list {
+    width: 20%;
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.list {
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 1px;
+    padding: 2px;
+    text-align: center;
+}
+
+/*
+ol { 
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-left: 5px solid orange;
+    border-top: 5px solid orange;
+}
+*/
+/* the main test of this website */
+#Jump-Button {  
+padding: 5px;
+background-color: black;
+border: 3px solid white;
+color: white;
+width: 125px;
+transition: background-color 250ms ease-out;
+}
+
+/* some code to make the button more noticeable when
+hovered over. */
+#Jump-Button:hover {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+/* the place we're trying to bring the screen to */
+#Jump-pt {  
+    padding: 5px;
+    margin-top: 4px;
+    font-family: sans-serif;
+    color: white;
+    border: 3px solid white;
+    background-color: black;
+    width: 90px;
+}
+
+#heading {
+    padding: 42px;
+    background-color: rgba(145, 145, 145, 0.459);
+    Font-family: sans-serif;
+    font-size: 2.5em;
+    border: 3px solid white;
+    color: white;
+}
+
+.Content {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 5px;
+    margin: 50px;
+    width: 20%;
+    border-left: 5px solid orange;
+    border-top: 5px solid orange;
+}
+
+#Content-Center {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This is a comment. its better this way */
+/* Pseudo classes for links */
+
+a.link {
+    color: yellow;
+}
+
+a.hover {
+    color: red;
+}
+
+a.active {
+    color: blue;
+}
+
+/* Probably Temporary Table */
+
